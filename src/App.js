@@ -45,7 +45,7 @@ const App = () => {
   console.log('=====================================================================================================')
 
   return(
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route element={<WithoutGuestNav />}>
               <Route path="/login" element={<Login />} />
