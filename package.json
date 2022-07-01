@@ -2,7 +2,7 @@
   "name": "pinjamcan",
   "homepage": "http://daskodierer.github.io/pinjamcan-gh-pages",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
